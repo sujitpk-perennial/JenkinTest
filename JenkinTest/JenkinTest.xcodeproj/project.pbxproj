@@ -12,7 +12,27 @@
 		8154CEA62120268E008BB85B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8154CEA42120268E008BB85B /* Main.storyboard */; };
 		8154CEA82120268E008BB85B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8154CEA72120268E008BB85B /* Assets.xcassets */; };
 		8154CEAB2120268E008BB85B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8154CEA92120268E008BB85B /* LaunchScreen.storyboard */; };
+		8154CEB921202BB1008BB85B /* JenkinTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8154CEB821202BB1008BB85B /* JenkinTestTests.swift */; };
+		8154CEC721202BBB008BB85B /* JenkinTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8154CEC621202BBB008BB85B /* JenkinTestUITests.swift */; };
+		8154CED121202C60008BB85B /* SnapshotHelperXcode8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8154CED021202C51008BB85B /* SnapshotHelperXcode8.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8154CEBB21202BB1008BB85B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8154CE952120268D008BB85B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8154CE9C2120268D008BB85B;
+			remoteInfo = JenkinTest;
+		};
+		8154CEC921202BBB008BB85B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8154CE952120268D008BB85B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8154CE9C2120268D008BB85B;
+			remoteInfo = JenkinTest;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		8154CE9D2120268E008BB85B /* JenkinTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JenkinTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -22,10 +42,32 @@
 		8154CEA72120268E008BB85B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8154CEAA2120268E008BB85B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8154CEAC2120268E008BB85B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8154CEB621202BB0008BB85B /* JenkinTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JenkinTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8154CEB821202BB1008BB85B /* JenkinTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JenkinTestTests.swift; sourceTree = "<group>"; };
+		8154CEBA21202BB1008BB85B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8154CEC421202BBB008BB85B /* JenkinTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JenkinTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8154CEC621202BBB008BB85B /* JenkinTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JenkinTestUITests.swift; sourceTree = "<group>"; };
+		8154CEC821202BBB008BB85B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8154CECF21202C51008BB85B /* Snapfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Snapfile.swift; sourceTree = "<group>"; };
+		8154CED021202C51008BB85B /* SnapshotHelperXcode8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapshotHelperXcode8.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		8154CE9A2120268D008BB85B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8154CEB321202BB0008BB85B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8154CEC121202BBB008BB85B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,7 +80,10 @@
 		8154CE942120268D008BB85B = {
 			isa = PBXGroup;
 			children = (
+				8154CECE21202C51008BB85B /* fastlane */,
 				8154CE9F2120268E008BB85B /* JenkinTest */,
+				8154CEB721202BB1008BB85B /* JenkinTestTests */,
+				8154CEC521202BBB008BB85B /* JenkinTestUITests */,
 				8154CE9E2120268E008BB85B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -47,6 +92,8 @@
 			isa = PBXGroup;
 			children = (
 				8154CE9D2120268E008BB85B /* JenkinTest.app */,
+				8154CEB621202BB0008BB85B /* JenkinTestTests.xctest */,
+				8154CEC421202BBB008BB85B /* JenkinTestUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -62,6 +109,33 @@
 				8154CEAC2120268E008BB85B /* Info.plist */,
 			);
 			path = JenkinTest;
+			sourceTree = "<group>";
+		};
+		8154CEB721202BB1008BB85B /* JenkinTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				8154CEB821202BB1008BB85B /* JenkinTestTests.swift */,
+				8154CEBA21202BB1008BB85B /* Info.plist */,
+			);
+			path = JenkinTestTests;
+			sourceTree = "<group>";
+		};
+		8154CEC521202BBB008BB85B /* JenkinTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8154CEC621202BBB008BB85B /* JenkinTestUITests.swift */,
+				8154CEC821202BBB008BB85B /* Info.plist */,
+			);
+			path = JenkinTestUITests;
+			sourceTree = "<group>";
+		};
+		8154CECE21202C51008BB85B /* fastlane */ = {
+			isa = PBXGroup;
+			children = (
+				8154CECF21202C51008BB85B /* Snapfile.swift */,
+				8154CED021202C51008BB85B /* SnapshotHelperXcode8.swift */,
+			);
+			path = fastlane;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -84,6 +158,42 @@
 			productReference = 8154CE9D2120268E008BB85B /* JenkinTest.app */;
 			productType = "com.apple.product-type.application";
 		};
+		8154CEB521202BB0008BB85B /* JenkinTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8154CEBD21202BB1008BB85B /* Build configuration list for PBXNativeTarget "JenkinTestTests" */;
+			buildPhases = (
+				8154CEB221202BB0008BB85B /* Sources */,
+				8154CEB321202BB0008BB85B /* Frameworks */,
+				8154CEB421202BB0008BB85B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8154CEBC21202BB1008BB85B /* PBXTargetDependency */,
+			);
+			name = JenkinTestTests;
+			productName = JenkinTestTests;
+			productReference = 8154CEB621202BB0008BB85B /* JenkinTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8154CEC321202BBB008BB85B /* JenkinTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8154CECB21202BBB008BB85B /* Build configuration list for PBXNativeTarget "JenkinTestUITests" */;
+			buildPhases = (
+				8154CEC021202BBB008BB85B /* Sources */,
+				8154CEC121202BBB008BB85B /* Frameworks */,
+				8154CEC221202BBB008BB85B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8154CECA21202BBB008BB85B /* PBXTargetDependency */,
+			);
+			name = JenkinTestUITests;
+			productName = JenkinTestUITests;
+			productReference = 8154CEC421202BBB008BB85B /* JenkinTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -97,6 +207,16 @@
 					8154CE9C2120268D008BB85B = {
 						CreatedOnToolsVersion = 9.0;
 						ProvisioningStyle = Manual;
+					};
+					8154CEB521202BB0008BB85B = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8154CE9C2120268D008BB85B;
+					};
+					8154CEC321202BBB008BB85B = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8154CE9C2120268D008BB85B;
 					};
 				};
 			};
@@ -114,6 +234,8 @@
 			projectRoot = "";
 			targets = (
 				8154CE9C2120268D008BB85B /* JenkinTest */,
+				8154CEB521202BB0008BB85B /* JenkinTestTests */,
+				8154CEC321202BBB008BB85B /* JenkinTestUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -129,6 +251,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8154CEB421202BB0008BB85B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8154CEC221202BBB008BB85B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -141,7 +277,37 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8154CEB221202BB0008BB85B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8154CEB921202BB1008BB85B /* JenkinTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8154CEC021202BBB008BB85B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8154CED121202C60008BB85B /* SnapshotHelperXcode8.swift in Sources */,
+				8154CEC721202BBB008BB85B /* JenkinTestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8154CEBC21202BB1008BB85B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8154CE9C2120268D008BB85B /* JenkinTest */;
+			targetProxy = 8154CEBB21202BB1008BB85B /* PBXContainerItemProxy */;
+		};
+		8154CECA21202BBB008BB85B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8154CE9C2120268D008BB85B /* JenkinTest */;
+			targetProxy = 8154CEC921202BBB008BB85B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		8154CEA42120268E008BB85B /* Main.storyboard */ = {
@@ -304,6 +470,66 @@
 			};
 			name = Release;
 		};
+		8154CEBE21202BB1008BB85B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JenkinTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.perennial.JenkinTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JenkinTest.app/JenkinTest";
+			};
+			name = Debug;
+		};
+		8154CEBF21202BB1008BB85B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JenkinTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.perennial.JenkinTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JenkinTest.app/JenkinTest";
+			};
+			name = Release;
+		};
+		8154CECC21202BBB008BB85B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JenkinTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.perennial.JenkinTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "00c1b19b-d22e-420c-b870-7af96a4674fe";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JenkinTest;
+			};
+			name = Debug;
+		};
+		8154CECD21202BBB008BB85B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JenkinTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.perennial.JenkinTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "00c1b19b-d22e-420c-b870-7af96a4674fe";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JenkinTest;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -321,6 +547,24 @@
 			buildConfigurations = (
 				8154CEB02120268E008BB85B /* Debug */,
 				8154CEB12120268E008BB85B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8154CEBD21202BB1008BB85B /* Build configuration list for PBXNativeTarget "JenkinTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8154CEBE21202BB1008BB85B /* Debug */,
+				8154CEBF21202BB1008BB85B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8154CECB21202BBB008BB85B /* Build configuration list for PBXNativeTarget "JenkinTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8154CECC21202BBB008BB85B /* Debug */,
+				8154CECD21202BBB008BB85B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
