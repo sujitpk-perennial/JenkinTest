@@ -445,6 +445,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5H6BNDUP5V;
 				INFOPLIST_FILE = JenkinTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.adpost.home;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -464,6 +465,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5H6BNDUP5V;
 				INFOPLIST_FILE = JenkinTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.adpost.home;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -560,7 +562,7 @@
 				8154CEAE2120268E008BB85B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		8154CEAF2120268E008BB85B /* Build configuration list for PBXNativeTarget "JenkinTest" */ = {
 			isa = XCConfigurationList;
@@ -569,7 +571,7 @@
 				8154CEB12120268E008BB85B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		8154CEBD21202BB1008BB85B /* Build configuration list for PBXNativeTarget "JenkinTestTests" */ = {
 			isa = XCConfigurationList;
@@ -578,7 +580,7 @@
 				8154CEBF21202BB1008BB85B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		8154CECB21202BBB008BB85B /* Build configuration list for PBXNativeTarget "JenkinTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -587,7 +589,7 @@
 				8154CECD21202BBB008BB85B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
