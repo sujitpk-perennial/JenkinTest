@@ -323,7 +323,7 @@
 				PROVISIONING_PROFILE = "c6b3e5b2-8b70-4e62-a1dd-b42f74192b6e";
 				PROVISIONING_PROFILE_SPECIFIER = AdPost_Home_Ideas_Development;
 				SWIFT_SWIFT3_OBJC_INFERENCE = On;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -344,7 +344,7 @@
 				PROVISIONING_PROFILE = "c6b3e5b2-8b70-4e62-a1dd-b42f74192b6e";
 				PROVISIONING_PROFILE_SPECIFIER = AdPost_Home_Ideas_Development;
 				SWIFT_SWIFT3_OBJC_INFERENCE = On;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
