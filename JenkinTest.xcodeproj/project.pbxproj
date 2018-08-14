@@ -132,6 +132,7 @@
 				TargetAttributes = {
 					8154CE9C2120268D008BB85B = {
 						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Manual;
 					};
 				};
@@ -321,7 +322,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "c6b3e5b2-8b70-4e62-a1dd-b42f74192b6e";
 				PROVISIONING_PROFILE_SPECIFIER = AdPost_Home_Ideas_Development;
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -341,7 +343,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "c6b3e5b2-8b70-4e62-a1dd-b42f74192b6e";
 				PROVISIONING_PROFILE_SPECIFIER = AdPost_Home_Ideas_Development;
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
