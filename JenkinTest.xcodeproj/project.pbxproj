@@ -311,8 +311,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Dev Adpost (8UAB3FJ8QH)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Dev Adpost (8UAB3FJ8QH)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Adpost Marketing Pte Ltd (5H6BNDUP5V)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Adpost Marketing Pte Ltd (5H6BNDUP5V)";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 5H6BNDUP5V;
 				INFOPLIST_FILE = JenkinTest/Info.plist;
@@ -320,8 +320,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.adpost.home;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "c6b3e5b2-8b70-4e62-a1dd-b42f74192b6e";
-				PROVISIONING_PROFILE_SPECIFIER = AdPost_Home_Ideas_Development;
+				PROVISIONING_PROFILE = "974fdb72-cc98-4b63-999b-5d2b91ee1195";
+				PROVISIONING_PROFILE_SPECIFIER = AdPost_Home_Ideas_Adhoc;
 				SWIFT_SWIFT3_OBJC_INFERENCE = On;
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -332,8 +332,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Dev Adpost (8UAB3FJ8QH)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Dev Adpost (8UAB3FJ8QH)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Adpost Marketing Pte Ltd (5H6BNDUP5V)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Adpost Marketing Pte Ltd (5H6BNDUP5V)";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 5H6BNDUP5V;
 				INFOPLIST_FILE = JenkinTest/Info.plist;
@@ -341,8 +341,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.adpost.home;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "c6b3e5b2-8b70-4e62-a1dd-b42f74192b6e";
-				PROVISIONING_PROFILE_SPECIFIER = AdPost_Home_Ideas_Development;
+				PROVISIONING_PROFILE = "974fdb72-cc98-4b63-999b-5d2b91ee1195";
+				PROVISIONING_PROFILE_SPECIFIER = AdPost_Home_Ideas_Adhoc;
 				SWIFT_SWIFT3_OBJC_INFERENCE = On;
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
